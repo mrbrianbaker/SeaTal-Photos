@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html id="top">
+<head>
+<meta charset="UTF-8">
+<title>Seattle Talent | Photo Printing Instructions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#one").click(function(){
+        $("#step1").slideToggle();
+		$("#one").toggleClass("glow");
+		$("#step2, #step3, #zip").hide();
+		$("#two, #three").removeClass("glow");
+	});
+	$("#two").click(function(){
+        $("#step2").slideToggle();
+		$("#two").toggleClass("glow");
+		$("#step1, #step3, #zip").hide();
+		$("#one, #three").removeClass("glow");
+    });
+	$("#three").click(function(){
+        $("#step3").slideToggle();
+		$("#three").toggleClass("glow");
+		$("#step1, #step2, #zip").hide();
+		$("#one, #two").removeClass("glow");
+    });
+	$("#zipper, #unzip").click(function(){
+        $("#zip").toggle();
+	});	
+});
+</script>
+</head>
+<body>
+<img id="logo" src="images/seattle-talent-logo3.png" alt="ST Logo">
+<div class="intro"> 
+ 
+  <h1>Photo Printing Instructions</h1>
+     <p>Your photos have been edited, and are ready for printing! Please follow the step by step instructions below to download and print your photos. </p><p>Contact brian@seattletalent.net if you have any questions!</p>
+		 
+  <div class="steps" id="one">
+  <h3>STEP 1</h3>
+  </div>
+  <div class="steps" id="two">
+  <h3>STEP 2</h3>
+  </div>
+  <div class="steps" id="three">
+  <h3>STEP 3</h3>
+  </div>
+  
+</div>  <!-- END INTRO -->
+
+<div class="instruction">
+
+<div id="step1">
+  <h2>STEP 1&#58; DOWNLOAD YOUR PHOTOS</h2>
+    <ol type="1">
+    <li>Click the link from your email to download your .zip folder. This file contains the original photos from the shoot, as well as the edited choices that you will use for printing. 
+      <p><em>&#42;This link will expire in approximately 30 days&#42;</em></p></li>
+    <li>Locate the downloaded file on your computer.</li>
+    <li>Unzip the file &#40;<a href="#zip" id="zipper">instructions below</a>&#41; to a preferred location. <em>You should now be able to view the original and edited photos.</em></li>
+    <li>Keep an additional copy of the folder on your computer, a portable hard drive, thumb drive, or CD as backup.</li>
+    <li>Download the order form  <a href="http://s3.photos.seattleartistsagency.com.s3.amazonaws.com/images/2015-agm-order-form.pdf" target="_blank">HERE</a> and release form <a href="http://s3.photos.seattleartistsagency.com.s3.amazonaws.com/images/photo-release.pdf" target="_blank">HERE</a>. Please print and complete the order form before you attempt to place your order.
+    <ul>
+      <li><strong>Headshot Only&#58;</strong><br>Complete the contact information for yourself and enter your email address<br>Order 100 copies of your preferred headshot.</li>
+        <li><strong>Headshot and Composite Card&#58;</strong><br>Complete the contact information for yourself, stats&#47;sizes, and enter your email address<br>Order 100 copies of your headshot and 100 copies of your composite card.</li>
+    </ul></li>
+    </ol>
+    <br>
+    <p>We strongly recommend that you print your photos with Access Group Media, as we have trusted our clients with them for over a decade.</p> <p><em>Should you decide to use a different printing company, please be sure to have your release form handy, as this is the only proof that you have the right to reproduce your images.</em></p>
+	
+	
+<div id="zip">
+  <h2>To decompress a file or folder&#58; </h2>
+  <p>&#8226;To decompress &#40;unzip&#41; a file or folder on a <strong>Mac</strong>, double-click it. </p>
+  <p>&#8226;To decompress a zipped file on a <strong>PC</strong>, drag the .zip attachment to the desktop. Once the file is on the desktop, you can <strong>double-</strong> or <strong>right-click</strong> to open it. </p>
+  <ul>
+  <li><strong>Double-click</strong> the zipped file to see its contents. When prompted, drag the files out of the window to the desired location or click Extract All. When you click Extract All, the files are unzipped in the same location as the original file unless you specify a different one in the Select a Destination window.</li>
+  <li><strong>Right-click</strong> the zipped file and select Extract All. By default, files are extracted to the location as the original zipped file. Use the Select a Destination window to save the files somewhere else. </li>
+  </ul>
+  
+  <a href="#top" id="unzip">Back to Top</a>
+</div>   <!-- END ZIP -->
+	
+	
+</div>   <!-- END STEP 1 -->
+
+<div id="step2">
+  <h2>STEP 2&#58; PRINT YOUR PHOTOS</h2>
+  <ol type="1">
+    <li>Visit <a href="http://accessgroupmedia.com/drop-box/" target="blank"> http://accessgroupmedia.com/drop-box/ </a>and enter your name and contact information.</li>
+    <li>Upload your photos to the appropriate file locations. 
+    <ul>
+    	<li><strong>Headshot Only&#58;</strong><br>Please upload <em>just one</em> of the edited photos to any file location.</li>
+        <li><strong>Headshot and Composite Card&#58;</strong><br> Please upload <em>all</em> of the edited photos to the appropriate file locations.</li>
+    </ul></li>
+    <li>Upload your completed order form &#40;digital scan or clear photo&#41; with complete payment information to one of the file locations.<p><em>&#42;If you cannot complete this step, please make a note in the Special Instructions box. You will be contacted to complete your order.&#42;</em></p></li>
+    <li>In the Special Instructions box, enter &#39;Seattle Talent&#39; so they know who is representing you.</li>
+    <li>You will be contacted by Access Group Media if they require any additional information.</li>
+  </ol>
+  <br>
+  <p>You should receive an email from Access Group Media with a proof of the final product within a couple of weeks. Total turnaround time is typically 4-6 weeks, so your patience is appreciated. </p> 
+  <p>In the meantime, please feel free to print a headshot at home for any audition you attend, and to email your photos for any casting submissions.</p>
+</div>   <!-- END STEP 2 -->    
+  
+<div id="step3">
+  <h2>STEP 3&#58; ONCE YOUR PHOTOS ARE PRINTED</h2>
+  <ol>
+  <li>Print your resume on the back of 5-10 headshots at a time. This can be done at a copy center, or on your home computer&#47;printer.</li>
+    <li>Bring 1 headshot and resume, along with 1 composite card &#40;if applicable&#41; to every audition you attend.</li>
+    <li>If you would like to keep photos on file with us, please bring in up to 5 copies each of your headshot &#40;<a href="http://s3.photos.seattleartistsagency.com.s3.amazonaws.com/images/resume.pdf" target="_blank">with resume!</a>&#41; and composite card. </li>
+  </ol>
+   
+</div>   <!-- END STEP 3 -->
+ 
+</div> <!-- END INSTRUCTION -->
+</body>
+</html>
